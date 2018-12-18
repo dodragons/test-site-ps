@@ -1,0 +1,43 @@
+/* CSS Document */
+img {
+  max-width: 100%;
+  max-height: 100%; }
+
+.hero {
+  width: 100%;
+  background: #eee; }
+
+.cate .cate-inner a {
+  float: left;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  overflow: hidden;
+  box-sizing: content-box;
+  position: relative; }
+  .cate .cate-inner a .item-box {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 1rem;
+    width: 100%;
+    color: #fff;
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out; }
+    .cate .cate-inner a .item-box span.item-name {
+      color: #fff;
+      opacity: 0;
+      transition-duration: .3s;
+      transition-timing-function: ease-in-out; }
+  .cate .cate-inner a:hover .item-box {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+    width: 100%; }
+    .cate .cate-inner a:hover .item-box span.item-name {
+      color: #fff;
+      opacity: 1; }
